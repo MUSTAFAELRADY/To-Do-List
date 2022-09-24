@@ -1,0 +1,251 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: red;
+    background-color: #000;
+outline: none;
+height: 5000px;
+
+}
+*{
+  text-transform: capitalize;
+}
+.container{
+    width: 75%;
+    background-color: #222;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.inputs{
+width: 100%;
+display: grid;
+gap: 0.5rem;
+grid-template-columns: 3fr 1fr;
+margin-top: 59px;
+justify-content: space-between;
+}
+@media screen and (max-width:350px){
+  .inputs{
+    display: flex;
+    gap: 0.3rem;
+    justify-content: space-between;
+  align-items: center;
+  }
+  .inputs input{
+    width: 70%;
+  }
+
+  
+}
+.inputs input{
+    border-radius: 20px;
+    background-color: #333;
+    color: rebeccapurple;
+    outline: none;
+    border: 3px red solid;
+    padding: 5px;
+    color: white;
+}
+
+.outputs{
+    width: 100%;
+    display: grid;
+    gap: 0.3rem;
+    grid-template-columns: 0.4fr 3.4fr 1.25fr;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+button{
+    height: 2rem;
+    border: none;
+    border-radius: 20px;
+}
+.outputs button{
+    justify-content: center;
+    text-align: center;
+}
+
+#text{
+    overflow: hidden;
+    word-wrap: break-word;
+}
+#text,#index,#comblete,#done,#delete{
+    margin-bottom: 20px;
+}
+input,button{
+  color: aquamarine;
+
+    font-size: larger;
+    background-color: #333;
+    outline: none;
+    border: none;
+}
+input:focus{
+    transform: scale(1.05);
+}
+
+
+
+.title{
+    color: aquamarine;
+}
+
+
+.checked{
+    text-decoration: line-through;
+    background-color: aquamarine;
+}
+.top{
+  color: aqua;
+  /* background-color: #444; */
+  position: fixed;
+  background-color: blue;
+
+  bottom: 2rem;
+  right: 2rem;
+  padding: 0.3rem;
+  border: 0.25rem solid aquamarine;
+  border-radius: 10px;
+  display: none;
+}
+.top:hover{
+  transform: scale(1.4);
+  transition: all 0.4s;
+}
+
+.show{
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
+    width: 500px;
+    margin: 20px auto;
+  }
+  .form {
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    flex: 1;
+  }
+  .input:focus {
+    outline: none;
+  }
+  .add {
+    border: none;
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .tasks {
+    background-color: #eee;
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 20px;
+  }
+  .tasks .task {
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid #ccc;
+  }
+  .tasks .task:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .tasks .task:hover {
+    background-color: #f7f7f7;
+  }
+  .tasks .task.done {
+    opacity: 0.5;
+  }
+  .tasks .task span {
+    font-weight: bold;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+  } */
